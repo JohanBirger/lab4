@@ -72,7 +72,7 @@ public class Assignment4 {
 
                         } else {
                             index++;
-                            if (index == eng_word_length) ;
+                            if (index == eng_word_length) {
                             System.out.println(ANSI_RED + "Fel svar!" + ANSI_RESET + " Korrekt svar är " + eng_words);
                             System.out.println("Du svarade på totalt " + index + " och hade " + score + "rätt. Välkomen åter!");
                         } else{
